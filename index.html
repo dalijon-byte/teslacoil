@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Coil Simulator</title>
+    <style>
+        body { margin: 0; overflow: hidden; background-color: #000; }
+        canvas { display: block; }
+        .banner {
+            position: absolute;
+            bottom: 40px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            color: white;
+            font-size: 22px;
+            background-color: #000;
+            border-radius: 15px;
+            font-weight: bold;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            text-shadow: 0 0 10px #00ffff;
+            z-index: 100;
+            text-decoration: none;
+        }
+        .author-credit {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            color: white;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            text-shadow: 0 0 5px #00ffff;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.163.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.163.0/examples/jsm/",
+                "dat.gui": "https://unpkg.com/dat.gui@0.7.9/build/dat.gui.module.js"
+            }
+        }
+    </script>
+    <script type="module" src="main.js"></script>
+    <a href="https://primedealspro.com" target="_blank" class="banner">Powered by PrimeDealsPro.com</a>
+    <div class="author-credit">Created by Sir Dalibor Jonic, MSc</div>
+</body>
+</html>
