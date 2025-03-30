@@ -2,8 +2,6 @@
 
 A 3D interactive Tesla coil simulator built using Three.js with configurable electrical arc effects.
 
-![Tesla Coil Simulator Screenshot]
-
 ![Day Mode](./image/screenshot1.png)
 *Simulation in Day Mode*
 
