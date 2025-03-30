@@ -4,6 +4,12 @@ A 3D interactive Tesla coil simulator built using Three.js with configurable ele
 
 ![Tesla Coil Simulator Screenshot](./screenshot.png)
 
+![Day Mode](./image/screenshot1.png)
+*Simulation in Day Mode*
+
+![Night Mode](./image/screenshot2.png)
+*Simulation in Night Mode*
+
 ## Features
 
 - Realistic 3D model of a Tesla coil (primary coil, secondary coil, and toroid)
